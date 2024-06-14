@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.098)), url("../imgs/pumpkins.webp");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    scrollbar-width: thin;
+}
+
+/*ESTILO-DO-HEADER*/
+header {
+    padding: 10px 10%;
+    display: grid;
+    grid-template-areas: 'pumpkins menu btn-contato';
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.881);
+}
+
+#pumpkins {
+    width: 75px;
+    height: 75px;
+}
+
+header a:hover #pumpkins {
+    background-color: rgba(179, 46, 146, 0.434);
+    filter: hue-rotate(1000deg);
+    transition: all 2s linear;
+    box-shadow: 0 0 10px rgba(179, 0, 255, 0.562);
+    border-radius: 50%;
+}
+
+header .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+header .menu li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 18px;
+    color: #585858;
+    transition: .2s;
+}
+
+header .menu li a:hover {
+    color: #fff;
+}
+
+.menu-item {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Aplica o efeito de transformação */
+}
+
+header .menu ul li {
+    position: relative;
+    width: 100px;
+}
+
+.btn-contato button {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    background-color: rgba(255, 166, 0, 0.826);
+    color: #585858;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-contato a {
+    text-decoration: none; 
+}
+
+.btn-contato button:hover {
+    background-color: rgb(72, 0, 255);
+    color: #fff;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 1fr; /* Define uma coluna que ocupa todo o espaço disponível */
+    grid-gap: 15px; /* Espaçamento entre os itens */
+    margin: 1em auto;
+    border: 1.5px solid #161616;
+    background-color: rgba(0, 0, 0, 0.854);
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 0.6em;
+    margin-top: 100px;
+    width: 400px;
+    padding: 20px;
+}
+
+.contato h2 {
+    margin: 1em 0;
+}
+
+.contato form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+.contato input,
+.contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #24242432;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.btn-enviar input {
+    background-color: #161616;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar input:hover {
+    background-color: #333;
+}
+
+.content .menu-lateral {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 20px; 
+}
+
+.content .menu-lateral ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content .menu-lateral a {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.content .menu-lateral a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+.content .menu-lateral a i:hover {
+    color: #9443d8;
+    transform: scale(1.1);
+}

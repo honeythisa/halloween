@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: #181A1C;
+    height: 100vh;
+    margin: 0;
+    scrollbar-width: thin;
+    background-size: 120% 120%;
+    max-width: 100%;
+}
+
+/*ESTILO-DO-HEADER*/
+header {
+    padding: 10px 10%;
+    display: grid;
+    grid-template-areas: 'pumpkins menu btn-contato';
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.881);
+}
+
+#pumpkins {
+    width: 75px;
+    height: 75px;
+}
+
+header a:hover #pumpkins {
+    background-color: rgba(179, 46, 146, 0.434);
+    filter: hue-rotate(1000deg);
+    transition: all 2s linear;
+    box-shadow: 0 0 10px rgba(179, 0, 255, 0.562);
+    border-radius: 50%;
+}
+
+header .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .menu li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 18px;
+    color: #585858;
+    transition: .2s;
+}
+
+header .menu li a:hover {
+    color: #fff;
+}
+
+.menu-item {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    /* Adiciona uma transição suave */
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    /* Aplica o efeito de transformação */
+}
+
+header .menu ul li {
+    position: relative;
+    width: 100px;
+}
+
+.btn-contato button {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    background-color: rgba(255, 166, 0, 0.826);
+    color: #585858;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-contato a {
+    text-decoration: none;
+}
+
+.btn-contato button:hover {
+    background-color: rgb(72, 0, 255);
+    color: #fff;
+}
+
+.home-poster p {
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.home-poster {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../imgs/ghosts.jpg');
+    ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: white;
+    font-size: 2em;
+}
+
+.inside-poster {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    padding-top: 20vh;
+    line-height: 2;
+}
+
+
+.inside-poster span {
+    color: teal;
+    font-weight: bold;
+
+}
+
+.line1 {
+    height: 2px;
+    background-color: rgb(18, 241, 241);
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.latest-movies {
+    position: absolute;
+    width: 97%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+}
+
+.latest-movies h1 {
+    font-size: 20px;
+    color: rgb(18, 241, 241);
+
+}
+
+.latest-container {
+    padding: 10px 0px;
+}
+
+.latest-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest-inside img {
+    height: 115px;
+    cursor: pointer;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+}
+
+.latest-inside img:hover {
+    transform: scale(1.2);
+}
+
+.heading1 {
+    color: white;
+    line-height: 1.5;
+}
+
+.heading1 h4 {
+    font-size: 15px;
+}
+
+.heading1 h6 {
+    font-size: 12px;
+}
+
+.btn2 {
+    margin-top: -30px;
+    margin-left: 150px;
+}
+
+.btn2 a {
+    font-size: 11px;
+    text-decoration: none;
+    background: teal;
+    padding: 7px 7px;
+    border-radius: 10%;
+    color: white;
+
+}
+
+.series {
+    position: absolute;
+    width: 97%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    color: white;
+    margin-top: 300px;
+}
+
+.series h1 {
+    font-size: 20px;
+    color: rgb(18, 241, 241);
+}
+
+.series-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.series-inside h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+
+}
+
+.series-inside img {
+    height: 250px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.series-inside img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.imdb {
+    background: rgb(73, 0, 128);
+    border-radius: 20px;
+    position: absolute;
+    padding: 10px 10px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 120px;
+    font-weight: bolder;
+}
