@@ -22,7 +22,7 @@ Este projeto foi desenvolvido para a disciplina de <i>Programação para a Inter
   </tr>
 </table>
 
-3. Superstições: Superstições e tradições mais populares do Halloween, com adendo da personagem Kuromi, a rainha do Halloween.
+3. Superstições: Superstições e tradições mais populares do Halloween, com adendo da personagem Kuromi, a rainha do Halloween do universo Sanrio.
    > Obs: minha página favorita!
 <table align="center">
   <tr>
