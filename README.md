@@ -80,7 +80,8 @@ Este projeto foi desenvolvido para a disciplina de <i>Programação para a Inter
 
 ### Problema 1:
   - Arrumar o Parallax Scrolling da página da história;
-    > (está meio bugado ao rolar)
+    > (está meio bugado ao rolar),
+    > passo a passo: https://pixelcog.github.io/parallax.js/
 
 ### Problema 2:
   - Pretendo arrumar o carrossel de forma que se ajuste o tamanho para não precisar da rolagem;
