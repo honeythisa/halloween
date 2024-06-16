@@ -78,15 +78,15 @@ Este projeto foi desenvolvido para a disciplina de <i>Programação para a Inter
 ## ⚠️ Pendências
 > Ideias que tive para evoluir mais o site.
 
-### Problema 1:
+### Ideia 1:
   - Arrumar o Parallax Scrolling da página da história;
     > (está meio bugado ao rolar),
     > passo a passo: https://pixelcog.github.io/parallax.js/
 
-### Problema 2:
+### Ideia 2:
   - Pretendo arrumar o carrossel de forma que se ajuste o tamanho para não precisar da rolagem;
 
-### Problema 3:
+### Ideia 3:
   - Estilizar a Scrollbar;
 
 ## ⏭️ Seguimento 
